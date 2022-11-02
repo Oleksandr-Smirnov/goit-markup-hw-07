@@ -14,38 +14,40 @@
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
   <!-- header -->
 
   <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <a class="nav-logo link" href="./index.html">Web<span class="logo-studio">Studio</span>
+    <div class="container header__container">
+      <nav class="navigation">
+        <a class="logo navigation__logo link" href="./index.html">Web<span
+            class="logo__label logo__label--black">Studio</span>
         </a>
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="nav-link link nav-inner" href="">Студія</a>
+        <ul class="menu list">
+          <li class="menu__item">
+            <a class="menu__link link menu__inner" href="">Студія</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./portfolio.html">Портфоліо</a>
+          <li class="menu__item">
+            <a class="menu__link link" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="">Контакти</a>
+          <li class="menu__item">
+            <a class="menu__link link" href="">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="nav-list list">
-        <li class="nav-envelop">
-          <a class="contact-link link" href="mailto:info@devstudio.com">
-            <svg class="contact-link-icon" width="16" height="12">
+      <ul class="contacts list">
+        <li>
+          <a class="contacts__link link" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" width="16" height="12">
               <use href="./images/symbol-defs.svg#icon-envelope"></use>
             </svg> info@devstudio.com</a>
         </li>
         <li>
-          <a class="contact-link link" href="tel:+380961111111">
-            <svg class="contact-link-icon" width="10" height="16">
+          <a class="contacts__link link" href="tel:+380961111111">
+            <svg class="contacts__icon" width="10" height="16">
               <use href="./images/symbol-defs.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
@@ -58,59 +60,59 @@
   <main>
     <section class="hero section">
       <div class="container">
-        <div class="hero-content">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+        <div class="hero__content">
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="btn hero__btn" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </div>
     </section>
     <section class="principies section">
       <div class="container">
         <h2 class="visually-hidden">our principies</h2>
-        <ul class="principies-list list">
-          <li class="principies-item">
-            <div class="background-icon">
-              <svg class="principies-icon" width="65" height="70">
+        <ul class="principies__list list">
+          <li class="principies__item">
+            <div class="principies__background">
+              <svg class="principies__icon" width="65" height="70">
                 <use href="./images/symbol-defs.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="principies-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="principies-text">
+            <h3 class="principies__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="principies__text">
               Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
-          <li class="principies-item">
-            <div class="background-icon">
-              <svg class="principies-icon" width="67" height="70">
+          <li class="principies__item">
+            <div class="principies__background">
+              <svg class="principies__icon" width="67" height="70">
                 <use href="./images/symbol-defs.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="principies-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="principies-text">
+            <h3 class="principies__title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="principies__text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
-          <li class="principies-item">
-            <div class="background-icon">
-              <svg class="principies-icon" width="70" height="54">
+          <li class="principies__item">
+            <div class="principies__background">
+              <svg class="principies__icon" width="70" height="54">
                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="principies-title">ПЛАНУВАННЯ</h3>
-            <p class="principies-text">
+            <h3 class="principies__title">ПЛАНУВАННЯ</h3>
+            <p class="principies__text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="principies-item">
-            <div class="background-icon">
-              <svg class="principies-icon" width="70" height="70">
+          <li class="principies__item">
+            <div class="principies__background">
+              <svg class="principies__icon" width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="principies-title">
+            <h3 class="principies__title">
               СУЧАСНІ ТЕХНОЛОГІЇ
             </h3>
-            <p class="principies-text">
+            <p class="principies__text">
               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
             </p>
           </li>
@@ -120,23 +122,23 @@
     <section class="work section">
       <div class="container">
         <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="work-list list">
-          <li class="work-item"><img src="./images/what-we-do/box_1.jpg" alt="box1" width="370" height="294" />
-            <div class="work-item-text">
+        <ul class="work__list list">
+          <li class="work__item"><img src="./images/what-we-do/box_1.jpg" alt="box1" width="370" height="294" />
+            <div class="work__text">
               <span>
                 Десктопні додатки
               </span>
             </div>
           </li>
-          <li class="work-item"><img src="./images/what-we-do/box_2.jpg" alt="box2" width="370" height="294" />
-            <div class="work-item-text">
+          <li class="work__item"><img src="./images/what-we-do/box_2.jpg" alt="box2" width="370" height="294" />
+            <div class="work__text">
               <span>
                 Мобільні додатки
               </span>
             </div>
           </li>
-          <li class="work-item"><img src="./images/what-we-do/box_3.jpg" alt="box3" width="370" height="294" />
-            <div class="work-item-text">
+          <li class="work__item"><img src="./images/what-we-do/box_3.jpg" alt="box3" width="370" height="294" />
+            <div class="work__text">
               <span>
                 Дизайнерські рішення
               </span>
