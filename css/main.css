@@ -45,13 +45,6 @@ address {
   font-style: normal;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  color: var(--main-text-color);
-}
-
 .list {
   list-style: none;
 }
@@ -64,6 +57,13 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  color: var(--main-text-color);
 }
 
 .container {
@@ -307,15 +307,15 @@ img {
   margin-right: auto;
 }
 
-.header__container {
-  display: flex;
-  align-items: center;
-}
-
 .header {
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
